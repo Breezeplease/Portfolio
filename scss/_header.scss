@@ -1,1 +1,19 @@
 /* CSS code for the Header section. */
+.jumbotron {
+  background:url('https://wallpaperscraft.com/image/milky_way_stars_night_sky_space_97654_1920x1080.jpg'); background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  } 
+  .jumbotron .container {
+    padding-top: 50px;
+  }
+  .headerWords {
+    color: floralwhite; 
+    font-weight: 550;
+  }
+.headerFollow {
+  color: floralwhite;
+  font-weight: 250;
+}

@@ -1,17 +1,39 @@
-/* General CSS stuff goes here. */
-
+/* Variables used throughout will go here. */
 body {
   background-color: purple;
-  background-image: -webkit-gradient(linear,left top,right top,from(#bc0606),to(#231ba4));
-}
+  background-image: -webkit-gradient(linear, left top, right top, from(#bc0606), to(#231ba4)); }
+
+.headerWords {
+  color: floralwhite; }
+
+.headerFollow {
+  color: floralwhite; }
+
+/* CSS code for the Navbar section. */
+/* CSS code for the Header section. */
 .jumbotron {
-  background-color: rgba(207, 48, 207, 0.726);
-  background-image: -webkit-gradient(linear,left top,right top,from(#bc060680),to(#241ba486));
-  opacity: 0.6;
-}
+  background: url("https://wallpaperscraft.com/image/milky_way_stars_night_sky_space_97654_1920x1080.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  padding-top: 5em;
+  padding-bottom: 5em; }
+
+.jumbotron .container {
+  padding-top: 50px; }
+
 .headerWords {
   color: floralwhite;
-}
+  font-weight: 550; }
+
 .headerFollow {
-  color: floralwhite
-}
+  color: floralwhite;
+  font-weight: 250; }
+
+/* CSS code for the Portfolio section. */
+.caption {
+  color: #cfcbc1; }
+
+/* CSS code for the About section. */
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */
