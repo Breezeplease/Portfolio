@@ -1,17 +1,17 @@
 /* General CSS stuff goes here. */
 
 body {
-    background-color: purple;
-    background-image: -webkit-gradient(linear,left top,right top,from(#bc0606),to(#231ba4));
+  background-color: purple;
+  background-image: -webkit-gradient(linear,left top,right top,from(#bc0606),to(#231ba4));
 }
 .jumbotron {
-    background-color: rgba(207, 48, 207, 0.726);
-    background-image: -webkit-gradient(linear,left top,right top,from(#bc060680),to(#241ba486));
-    opacity: 0.6;
+  background-color: rgba(207, 48, 207, 0.726);
+  background-image: -webkit-gradient(linear,left top,right top,from(#bc060680),to(#241ba486));
+  opacity: 0.6;
 }
 .headerWords {
-    color: floralwhite;
+  color: floralwhite;
 }
 .headerFollow {
-    color: floralwhite
+  color: floralwhite
 }
