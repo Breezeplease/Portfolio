@@ -40,12 +40,22 @@ body {
   color: #cfcbc1; }
 
 .pic {
-  padding: 20px;
-  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin: auto;
   border-radius: 70%;
   width: 100%; }
 
+#eyes {
+  border: black 4px solid; }
+
 /* CSS code for the About section. */
+.aboutStyle {
+  height: 15em; }
+
+.lead {
+  margin-bottom: 7em; }
+
 /* CSS code for the Contact section. */
 #campbellPic {
   margin: 50px 0 0 0;

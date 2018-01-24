@@ -20,10 +20,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light navbar-toggleable-md headBar" style="background-color:rgba(0, 0, 0, 0.795)">
         <form class="form-inline">
-          <button class="btn btn-outline-success mainButton" type="button" >Main button</button>
-          <button class="btn btn btn-outline-success secondButton" type="button">Smaller button</button>
-          <button class="btn btn btn-outline-success secondButtonTwo" type="button">Smaller button</button>
-          <button class="btn btn btn-outline-success secondButtonThree" type="button">Smaller button</button>
+          <button class="btn btn-outline-success mainButton" type="button" onclick="location.href = '#'" >To Top</button>
+          <button class="btn btn btn-outline-success secondButton" type="button" onclick="location.href = 'https://codepen.io/Breezeplease/pen/GyxoOx'">Project Spiders</button>
+          <button class="btn btn btn-outline-success secondButtonTwo" type="button" onclick="location.href = '#'">Smaller button</button>
+          <button class="btn btn btn-outline-success secondButtonThree" type="button" onclick="location.href = '#'">Smaller button</button>
         </form>
       </nav>
     
@@ -43,16 +43,16 @@
         <h2 class="text-center text-uppercase text-white">Portfolio</h2>
         <div class="container-fluid">
             <div class="row">
-            <div class="col-sm-4">
-                            <a href="#">
-                            <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 1">
+            <div class="col">
+                            <a href="https://codepen.io/Breezeplease/pen/GyxoOx">
+                            <img id="eyes" class="pic" src="https://img00.deviantart.net/5165/i/2012/326/a/8/monster_face_wallpaper_by_retaks_16-d5lsd0f.png" alt="Portfolio 1">
                             </a>
                             <div class="text-center caption">
                                 <h3>Portfolio Item #1</h3>
                                 <p>Sub title</p>
                             </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col">
                             <a href="#">
                             <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 2">
                             </a>
@@ -61,7 +61,7 @@
                                 <p>Sub title</p>
                             </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col">
                             <a href="#">
                             <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 3">
                             </a>
@@ -77,20 +77,53 @@
     <!-- About -->
     <section class="text-white" style="background-color:rgba(0, 0, 0, 0.795)">
         <div class="container">
-            <h2 class="text-center text-uppercase text-white">About</h2>
+            <h2 class="text-center text-uppercase text-white">Project Info</h2>
             <div class="row">
                 <div class="col-sm-4">
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, voluptates, dignissimos dicta aperiam voluptas iusto explicabo culpa, id dolorem suscipit architecto? Eaque accusantium totam itaque animi minima quo minus suscipit!</p>
+                    <p class="lead">I've got an inkling for spiders. They can be cute or terrible beings. I used mostly CSS to create the legs and roation timers to create the illusion of independant movement.</p>
                 </div>
                 <div class="col-sm-4">
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam fuga, assumenda, quis ducimus ab odit, dolorum dolor minus eveniet ex? Quia dolores consequatur nisi nam ex inventore recusandae quibusdam!</p>
+                    <p class="lead">Some more personal facts about myself is that I'm a musician, vocally and instrumentally, and am an avid card game player. I typically strive for competition and wish to reach greater heights in all my accomplishments. As a keyboard warrior I play videogames as well, but that's almost expected.</p>
                 </div>
                 <div class="col-sm-4">
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, saepe molestias beatae reiciendis autem nesciunt necessitatibus. Esse, delectus. Provident pariatur tempore quisquam fugiat officia? Magni aliquid mollitia debitis amet repellendus!</p>
+                    <p class="lead">I'm currently located in Indiana, but that's all up for change in the future. Please contact me about any questions.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="text-white aboutStyle" style="background-color:rgba(0, 0, 0, 0.795)">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-white">About</h2>
+                <div class="row"> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                    <p class="lead">I'm Clayton Campbell, a student of the code and master of the keyboard. I've started my trek onto the path of keyboard warrior in 2016 and have truly delved into its depths starting on 2018. I have learned so much, yet as technology advances, so does the effort needed to learn.</p>
+              </div>
+              <div class="carousel-item">
+                    <p class="lead">Some more personal facts about myself is that I'm a musician, vocally and instrumentally, and am an avid card game player. I typically strive for competition and wish to reach greater heights in all my accomplishments. As a keyboard warrior I play videogames as well, but that's almost expected.</p>
+              </div>
+              <div class="carousel-item">
+                    <p class="lead">I'm currently located in Indiana, but that's all up for change in the future. I've stayed around a good portion of the USA to places like Alaska, Seattle, and Texas. I would consider myself well traveled, except for my lack of international locales. I've lived my 23 years here in the US and am ready for anything.</p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>
+        </section>
 
     <!-- Contact -->
     <section>
