@@ -18,7 +18,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light navbar-toggleable-md" style="background-color:rgba(0, 0, 0, 0.795)">
+    <nav class="navbar navbar-light navbar-toggleable-md headBar" style="background-color:rgba(0, 0, 0, 0.795)">
         <form class="form-inline">
           <button class="btn btn-outline-success mainButton" type="button" >Main button</button>
           <button class="btn btn btn-outline-success secondButton" type="button">Smaller button</button>
@@ -30,7 +30,7 @@
 
     <!-- Header -->
      <header> 
-        <div class="jumbotron jumbotron-fluid text-center bg-primary jTest">
+        <div class="jumbotron jumbotron-fluid text-center bg-primary">
         <div class="container">
           <h1 class="display-4 headerWords">The Start of Clayton Campbell</h1>
           <p class="lead headerFollow">An Expression From Once Humble Beginnings</p>
@@ -41,67 +41,78 @@
     <!-- Portfolio -->
     <section>
         <h2 class="text-center text-uppercase text-white">Portfolio</h2>
-        <div class="row">
-            <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm-4">
+                            <a href="#">
+                            <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 1">
+                            </a>
                             <div class="text-center caption">
                                 <h3>Portfolio Item #1</h3>
                                 <p>Sub title</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="">
+            </div>
+            <div class="col-sm-4">
+                            <a href="#">
+                            <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 2">
+                            </a>
                             <div class="text-center caption">
                                 <h3>Portfolio Item #2</h3>
                                 <p>Sub title</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="">
+            </div>
+            <div class="col-sm-4">
+                            <a href="#">
+                            <img class="pic" src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Portfolio 3">
+                            </a>
                             <div class="text-center caption">
                                 <h3>Portfolio Item #3</h3>
                                 <p>Sub title</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-    </section>
-
-    <!-- About -->
-    <section class=" text-white" style="background-color:rgba(0, 0, 0, 0.795)">
-            <div class="container">
-                <h2 class="text-center text-uppercase text-white">About</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, voluptates, dignissimos dicta aperiam voluptas iusto explicabo culpa, id dolorem suscipit architecto? Eaque accusantium totam itaque animi minima quo minus suscipit!</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam fuga, assumenda, quis ducimus ab odit, dolorum dolor minus eveniet ex? Quia dolores consequatur nisi nam ex inventore recusandae quibusdam!</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, saepe molestias beatae reiciendis autem nesciunt necessitatibus. Esse, delectus. Provident pariatur tempore quisquam fugiat officia? Magni aliquid mollitia debitis amet repellendus!</p>
-                    </div>
-                </div>
+            </div>
+            </div>
             </div>
         </section>
 
+    <!-- About -->
+    <section class="text-white" style="background-color:rgba(0, 0, 0, 0.795)">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white">About</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, voluptates, dignissimos dicta aperiam voluptas iusto explicabo culpa, id dolorem suscipit architecto? Eaque accusantium totam itaque animi minima quo minus suscipit!</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quibusdam fuga, assumenda, quis ducimus ab odit, dolorum dolor minus eveniet ex? Quia dolores consequatur nisi nam ex inventore recusandae quibusdam!</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, saepe molestias beatae reiciendis autem nesciunt necessitatibus. Esse, delectus. Provident pariatur tempore quisquam fugiat officia? Magni aliquid mollitia debitis amet repellendus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact -->
     <section>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+                <img id="campbellPic" src="https://i.imgur.com/OenIcYq.jpg" alt="Clayton Campbell">
+                <p class="about aboutMarg">This is yours truly!</p>
+            </div>
+            <div class="col-sm-4 aboutMargin about">
+                <p>Please contact me at <a class="about line" href="mailto:breezelz@gmail.com">breezeplz@gmail.com</a></p>
+            </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-          <a class="navbar-brand" href="#">Footer</a>
-          <a class="navbar-brand" href="#">Year</a>
-          <a class="navbar-brand" href="#">Etc</a>
-        </nav>
+     <div class="container-fluid footNote">
+          <a class="navbar-brand footBar" href="#">Footer</a>
+          <a class="navbar-brand footBar" href="#">Year</a>
+          <a class="navbar-brand footBar" href="#">Etc</a>
       </div>
     </footer>
 
