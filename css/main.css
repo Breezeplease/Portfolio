@@ -46,10 +46,12 @@ body {
   text-align: center;
   margin: auto;
   border-radius: 70%;
-  width: 100%; }
+  width: 100%;
+  border: black 4px solid; }
 
 #eyes {
-  border: black 4px solid; }
+  border: black 4px solid;
+  height: 82.5%; }
 
 /* CSS code for the About section. */
 .aboutStyle {
