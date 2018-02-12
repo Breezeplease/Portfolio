@@ -1,7 +1,7 @@
 /* Variables used throughout will go here. */
 body {
   background-color: purple;
-  background-image: -webkit-gradient(linear, left top, right top, from(#bc0606), to(#231ba4)); }
+  background-image: -webkit-gradient(linear, left top, right top, from(#2d06bc), to(#231ba4)); }
 
 .headerWords {
   color: floralwhite; }
