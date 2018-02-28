@@ -48,7 +48,12 @@ body {
   border-radius: 70%;
   width: 100%;
   border: black 4px solid; }
-
+#book{
+  height: 80%
+}
+.projects{
+  margin: 0 0 0 10em
+}
 #eyes {
   border: black 4px solid;
   height: 82.5%; }
@@ -67,6 +72,10 @@ body {
   width: 224.4px;
   border: 4px black solid;
   box-shadow: 3px 2px; }
+
+.contactInfo{
+  margin: 2em 0 2em 0;
+}
 
 .about {
   color: white;
