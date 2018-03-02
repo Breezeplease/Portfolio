@@ -1,16 +1,34 @@
 /* CSS code for the Portfolio section. */
 .caption {
-  color: #cfcbc1; 
+  color: #cfcbc1; }
+
+.pic {
+  padding: 0px;
+  text-align: center;
+  margin: auto;
+  border-radius: 70%;
+  width: 100%;
+  border: black 4px solid; }
+#book{
+  height: 10em;
+  width: 10em
 }
-  .pic {
-    padding: 0px;
-    text-align: center;
-    margin: auto;
-    border-radius: 70%;
-    width:100%;
-    border: black 4px solid;
-  }
-  #eyes{
-    border: black 4px solid;
-    height: 82.5%;
-  }
+/* .projects{
+  margin: 0 0 0 10em
+} */
+#eyes {
+  border: black 4px solid;
+  height: 10em;
+  width: 10em
+}
+#magic{
+  height: 10em;
+  width: 10em
+}
+#server{
+  height: 10em;
+  width: 10em
+}
+.projtwo{
+  margin: 1em 0 5em 0;
+}
