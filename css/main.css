@@ -1,7 +1,7 @@
 /* Variables used throughout will go here. */
 body {
   background-color: #18023e;
-  background-image: -webkit-gradient(linear, left top, right top, from(##18023e), to(#05031c)); }
+  background-image: -webkit-gradient(linear, left top, right top, from(#18023e), to(#05031c)); }
 
 .headerWords {
   color: floralwhite; }
@@ -48,11 +48,9 @@ body {
   margin: auto;
   border-radius: 70%;
   width: 100%;
-  border: black 4px solid; }
-#book{
+  border: black 4px solid;
   height: 10em;
-  width: 10em
-}
+  width: 10em; }
 .textgreen {
   color: #19682b;
 }
@@ -61,19 +59,23 @@ body {
 } */
 #eyes {
   border: black 4px solid;
-  height: 10em;
-  width: 10em
-}
-#magic{
-  height: 10em;
-  width: 10em
-}
-#server{
-  height: 10em;
-  width: 10em
 }
 .projtwo{
-  margin: 1em 0 5em 0;
+  margin: 1em 0 2em 0;
+}
+@media only screen and (min-width: 768px){
+  .left-div{
+    max-width: 50%;
+    flex: 0 0 40%
+  }
+  .center-div{
+    max-width: 20%;
+  }
+  .right-div{
+    max-width: 50%;
+    flex: 0 0 40%;
+  }
+
 }
 /* CSS code for the About section. */
 .aboutStyle {
@@ -84,12 +86,17 @@ body {
 
 /* CSS code for the Contact section. */
 #campbellPic {
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 -7em;
   height: 240.6px;
   width: 224.4px;
   border: 4px black solid;
   border-radius: 1em;
   box-shadow: 3px 2px #19682b; }
+  #resume {
+    margin: 50px 0 0 0;
+  height: 240.6px;
+  width: 224.4px;
+  }
 
 .contactInfo{
   margin: 2em 0 2em 0;
@@ -110,10 +117,22 @@ body {
 
 .line {
   text-decoration: underline; }
-/* .text-form {
-  width: 40em;
-} */
 
+#selfName{
+  margin-left: -4em;
+}
+#selfResume{
+  margin-right: -4em;
+  margin-left: 4em
+}
+@media only screen and (min-width: 768px){
+  #campbellPic {
+  margin: 50px 0 0 0;
+  }
+  #selfName{
+    margin-left: 3em;
+  }
+}
 /* CSS code for the Footer section. */
 .footBar {
   color: lightcyan; }
