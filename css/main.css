@@ -17,7 +17,7 @@ body {
 
 /* CSS code for the Header section. */
 .jumbotron {
-  background: url("https://wallpaperscraft.com/image/milky_way_stars_night_sky_space_97654_1920x1080.jpg");
+  background: url("../assets/stars.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 450px;
@@ -86,7 +86,7 @@ body {
 
 /* CSS code for the Contact section. */
 #campbellPic {
-  margin: 50px 0 0 -7em;
+  margin: 50px 0 0 0;
   height: 240.6px;
   width: 224.4px;
   border: 4px black solid;
@@ -101,7 +101,12 @@ body {
 .contactInfo{
   margin: 2em 0 2em 0;
 }
-
+.textMail{
+  margin-left: 6em;
+}
+.selfPic{
+  margin-left: -6em;
+}
 .about {
   color: white;
   margin-bottom: 20em; }
@@ -119,19 +124,28 @@ body {
   text-decoration: underline; }
 
 #selfName{
-  margin-left: -4em;
+  margin-right: -4.5em;
 }
 #selfResume{
   margin-right: -4em;
   margin-left: 4em
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1000px){
   #campbellPic {
   margin: 50px 0 0 0;
   }
   #selfName{
     margin-left: 3em;
   }
+  .textMail{
+  margin-left: 1.5em;
+}
+.selfPic{
+  margin-left: 0;
+}
+.resumeMail {
+  margin-left: -1.5em
+}
 }
 /* CSS code for the Footer section. */
 .footBar {
